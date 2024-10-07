@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .robot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .antenna {
+    width: 4px;
+    height: 50px;
+    background-color: #999;
+    margin-bottom: 10px;
+  }
+  
+  .head {
+    width: 200px;
+    height: 250px;
+    background: linear-gradient(135deg, #b0b0b0, #dcdcdc);
+    border-radius: 50px;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border: 2px solid #999;
+  }
+  
+  .eyes {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    margin: 30px auto;
+  }
+  
+  .eye {
+    width: 40px;
+    height: 40px;
+    background: radial-gradient(circle, #fff 25%, #333 80%);
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .mouth {
+    width: 100px;
+    height: 20px;
+    background-color: #333;
+    margin: 40px auto 0;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: inset 0 -5px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .mouth-shape {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+    transform: scaleY(1);
+    transition: transform 0.3s ease;
+  }
+  
+  .speech-box {
+    margin-top: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+    border-radius: 10px;
+    border: 2px solid #333;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  .spoken-text {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+  }
+  

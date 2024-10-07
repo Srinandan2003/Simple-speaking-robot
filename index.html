@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speaking Robot</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="introSpeech()">
+  <div class="container">
+    <h1>Speaking Robot</h1>
+    <div class="robot">
+      <div class="antenna"></div>
+      <div class="head">
+        <div class="eyes">
+          <div class="eye"></div>
+          <div class="eye"></div>
+        </div>
+        <div class="mouth">
+          <div class="mouth-shape"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="name-box" class="speech-box">
+      <input type="text" id="nameInput" placeholder="Enter your name...">
+      <button onclick="askName()">Submit</button>
+    </div>
+
+    <div id="speak-box" class="speech-box" style="display:none;">
+      <input type="text" id="inputText" placeholder="What would you like me to say?">
+      <button onclick="makeRobotSpeak()">Speak</button>
+    </div>
+
+    <p id="spokenText" class="spoken-text"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
