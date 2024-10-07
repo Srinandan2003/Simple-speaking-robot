@@ -1,0 +1,55 @@
+# Speaking Robot
+
+The **Speaking Robot** is a simple, interactive web project that demonstrates the use of JavaScript’s Web Speech API. The robot speaks aloud based on user input, starting with an automatic introduction and then prompting for the user's name. Afterward, the user can type a message that the robot will speak aloud.
+
+## Project Purpose
+
+This project is designed to demonstrate how text-to-speech capabilities can be implemented using basic web technologies: HTML, CSS, and JavaScript. The robot adds an element of fun by interacting with users and responding verbally. 
+
+The goal is to showcase how the Web Speech API works in a simple yet interactive format, offering both a practical application of the technology and an entertaining user experience.
+
+## Project Features
+
+1. **Automated Robot Introduction**: As soon as the webpage loads, the robot will introduce itself with the message: "I am a text-to-voice speaking robot. Can you enter your name, please?"
+   
+2. **Personalized Greeting**: The robot will prompt users to enter their name. After the name is submitted, it will greet them, saying "Hello <name>, what would you like me to say?"
+
+3. **Custom Speech Input**: The user is then prompted to input any message they'd like the robot to speak. The robot will speak aloud the entered message using the Web Speech API.
+
+4. **Robot Animation**: While the robot speaks, its mouth moves to simulate the speech process, adding a visual dynamic to the interaction.
+
+## How to Set Up Locally
+
+To run this project locally, follow these steps:
+
+### Prerequisites
+
+- A modern web browser (Google Chrome, Firefox, etc.).
+- Basic knowledge of HTML, CSS, and JavaScript.
+
+### Setup Steps
+
+1. **Clone or Download the Repository**
+
+   ```bash
+   git clone https://github.com/your-username/speaking-robot.git
+2. **Navigate to the Project Folder**
+
+   ```bash
+   cd speaking-robot
+   
+3. **Open the index.html File**
+
+### Interaction Steps
+
+- Upon loading, the robot will introduce itself.
+- Enter your name in the input box, and click "Submit."
+- The robot will greet you by name.
+- Next, you can type any message for the robot to speak and hit "Speak" to hear it.
+
+
+
+
+
+
+
