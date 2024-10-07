@@ -48,6 +48,29 @@ To run this project locally, follow these steps:
 - Next, you can type any message for the robot to speak and hit "Speak" to hear it.
 
 
+## Contributing
+
+Contributions are welcome and encouraged! If you'd like to contribute to this project, please follow the steps below:
+
+1. **Fork the Repository**: Click the "Fork" button on the top right of this repository to create your own copy.
+
+2. **Clone Your Fork**: Clone the forked repository to your local machine using the following command:
+   ```bash
+   git clone https://github.com/your-username/speaking-robot.git
+
+3. **Create a New Branch: Create a new branch for your changes** :  
+   ```bash
+   git checkout -b your-branch-name
+4. **Make Your Changes**: Add your improvements or new features to the code.
+5. **Commit Your Changes**: Commit your changes with a meaningful message.
+   ```bash
+   git commit -m "Description of the changes you made"
+6. **Push to Your Fork**: Push your changes to your forked repository.   
+      ```bash
+      git push origin your-branch-name
+7.  **Create a Pull Request**: Go to the original repository on GitHub and create a pull request from your forked repository. 
+                               Be sure to include a clear description of the changes you've made and the purpose of the pull request.
+
 
 
 
